@@ -8,12 +8,16 @@
         .container {
             width: 80%;
             margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
         }
         .dloads {
             list-style: none;
+            display: flex;
+            flex-direction: column;
         }
         .dloads li {
-            margin-bottom: 10px;
+            margin: 10px 0;
         }
     </style>
 </head>
@@ -22,6 +26,7 @@
         <h1>Downloads</h1>
         <ul class="dloads">
             <li><a href="data-integration.pdf">BI Data Gateway Documentation</a></li>
+            <li><a href="CleanCode.pdf">Clean Code</a></li>
         </ul>
     </div>
 </body>
